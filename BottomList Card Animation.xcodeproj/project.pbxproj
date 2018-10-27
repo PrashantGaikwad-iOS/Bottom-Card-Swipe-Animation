@@ -12,6 +12,8 @@
 		8907170321848F1000A38757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8907170121848F1000A38757 /* Main.storyboard */; };
 		8907170521848F1700A38757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8907170421848F1700A38757 /* Assets.xcassets */; };
 		8907170821848F1700A38757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8907170621848F1700A38757 /* LaunchScreen.storyboard */; };
+		890717102184B5DD00A38757 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8907170F2184B5DD00A38757 /* CardViewController.swift */; };
+		890717122184B79E00A38757 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890717112184B79E00A38757 /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8907170421848F1700A38757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8907170721848F1700A38757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8907170921848F1700A38757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8907170F2184B5DD00A38757 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		890717112184B79E00A38757 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				890716FD21848F1000A38757 /* AppDelegate.swift */,
 				890716FF21848F1000A38757 /* ViewController.swift */,
+				8907170F2184B5DD00A38757 /* CardViewController.swift */,
 				8907170121848F1000A38757 /* Main.storyboard */,
 				8907170421848F1700A38757 /* Assets.xcassets */,
+				890717112184B79E00A38757 /* CardViewController.xib */,
 				8907170621848F1700A38757 /* LaunchScreen.storyboard */,
 				8907170921848F1700A38757 /* Info.plist */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890717122184B79E00A38757 /* CardViewController.xib in Resources */,
 				8907170821848F1700A38757 /* LaunchScreen.storyboard in Resources */,
 				8907170521848F1700A38757 /* Assets.xcassets in Resources */,
 				8907170321848F1000A38757 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				8907170021848F1000A38757 /* ViewController.swift in Sources */,
 				890716FE21848F1000A38757 /* AppDelegate.swift in Sources */,
+				890717102184B5DD00A38757 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "BottomList Card Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "BottomList Card Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
